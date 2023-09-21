@@ -1,0 +1,89 @@
+/* 首页头图加载 */
+#page-header {
+  -webkit-animation: .6s ease .3s 1 normal backwards running slide-in;
+  animation: .6s ease .3s 1 normal backwards running slide-in;
+}
+
+@media screen and (max-width: 768px) {
+  .pl-container {
+    position: relative !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .pl-container {
+    opacity: calc(1 - var(--process) * .95) !important;
+    transform: scale(calc(1 + var(--process) * .9));
+    filter: blur(calc(var(--process) * 50px));
+  }
+}
+
+
+
+.pl-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -2;
+  overflow: hidden;
+  will-change: transform;
+  animation: blur-to-clear 2.7s cubic-bezier(.62,.21,.25,1) 0s 1 normal backwards running, scale 1.5s cubic-bezier(.62,.21,.25,1) 0s 1 both;
+}
+
+.pl-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+
+.pl-video.pl-visible {
+  display: block !important;
+}
+
+@keyframes blur-to-clear {
+  0% {
+    filter: blur(50px);
+    opacity: 1;
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1.5) translateZ(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1) translateZ(0);
+    opacity: 1;
+  }
+}
+
+.pl-video {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  border-radius: 4px;
+  max-width: 100%;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAKUlEQVQImU3IMREAIAgAwJfNkQCEsH8cijjpMf6vnXlQaIiJFx+omEBfmqIEZLe2jzcAAAAASUVORK5CYII=);
+}
+
+.pl-visible {
+  opacity: 1;
+}
+
+.pl-blur {
+  filter: blur(50px);
+}
