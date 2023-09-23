@@ -65,8 +65,8 @@ const executeLoad = (config, target) => {
 };
 
 const config = {
-  smallSrc: 'https://s2.loli.net/2023/09/16/Kd9AD7FabNYIwxM.jpg', // 小图链接 尽可能配置小于100k的图片
-  largeSrc: 'https://s2.loli.net/2023/09/16/FseWhOwn5SyCM4R.png', // 大图链接 最终显示的图片
+  smallSrc: '', // 小图链接 尽可能配置小于100k的图片
+  largeSrc: 'https://t.mwm.moe/pc', // 大图链接 最终显示的图片
   mobileSmallSrc: 'https://s2.loli.net/2023/09/16/Kd9AD7FabNYIwxM.jpg', // 手机端小图链接 尽可能配置小于100k的图片
   mobileLargeSrc: 'https://s2.loli.net/2023/09/16/FseWhOwn5SyCM4R.png', // 手机端大图链接 最终显示的图片
   enableRoutes: ['/'],

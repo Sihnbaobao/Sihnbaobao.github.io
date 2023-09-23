@@ -2810,14 +2810,14 @@ i.anzhiyu-icon-hashtag {
   --anzhiyu-ahoverbg: #fff;
   --anzhiyu-scrollbar: rgba(200,200,223,0.4);
   --anzhiyu-lighttext: #f2b94b;
-  --anzhiyu-secondtext: #a1a2b8;
+  --anzhiyu-secondtext: #fff;
   --anzhiyu-scrollbar: rgba(200,200,223,0.4);
   --anzhiyu-card-btn-bg: #30343f;
   --anzhiyu-post-blockquote-bg: #000;
   --anzhiyu-post-tabs-bg: #121212;
   --anzhiyu-secondbg: rgba(49,52,61,0.302);
   --anzhiyu-shadow-nav: 0 5px 20px 0px rgba(28,28,28,0.4);
-/* --anzhiyu-card-bg: #1d1e22; */
+/* --anzhiyu-card-bg: #31343d4d; */
   --anzhiyu-shadow-lightblack: 0 5px 12px -5px rgba(102,68,68,0);
   --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102,68,68,0);
   --anzhiyu-card-border: #42444a;
@@ -3070,22 +3070,22 @@ blockquote > :last-child {
   width: 100%;
   height: 100%;
   position: fixed;
-  background: rgba(49,52,61,0.545);
+  background: var(--global-bg);
   z-index: 1001;
   opacity: 1;
   -ms-filter: none;
   filter: none;
   overflow: hidden;
-  -webkit-transition: 0.35s;
-  -moz-transition: 0.35s;
-  -o-transition: 0.35s;
-  -ms-transition: 0.35s;
-  transition: 0.35s;
-  -webkit-animation: showLoading 0.38s 0s backwards;
-  -moz-animation: showLoading 0.38s 0s backwards;
-  -o-animation: showLoading 0.38s 0s backwards;
-  -ms-animation: showLoading 0.38s 0s backwards;
-  animation: showLoading 0.38s 0s backwards;
+  -webkit-transition: 0.17s;
+  -moz-transition: 0.17s;
+  -o-transition: 0.17s;
+  -ms-transition: 0.17s;
+  transition: 0.17s;
+  -webkit-animation: showLoading 0.25s 0s backwards;
+  -moz-animation: showLoading 0.25s 0s backwards;
+  -o-animation: showLoading 0.25s 0s backwards;
+  -ms-animation: showLoading 0.25s 0s backwards;
+  animation: showLoading 0.25s 0s backwards;
 }
 .loading-bg::-webkit-scrollbar {
   display: none;
@@ -3102,11 +3102,11 @@ blockquote > :last-child {
   border-radius: 50%;
   margin: auto;
   border: 4px solid #f0f0f2;
-  -webkit-animation-duration: 0.35s;
-  -moz-animation-duration: 0.35s;
-  -o-animation-duration: 0.35s;
-  -ms-animation-duration: 0.35s;
-  animation-duration: 0.35s;
+  -webkit-animation-duration: 0.25s;
+  -moz-animation-duration: 0.25s;
+  -o-animation-duration: 0.25s;
+  -ms-animation-duration: 0.25s;
+  animation-duration: 0.25s;
   -webkit-animation-name: loadingAction;
   -moz-animation-name: loadingAction;
   -o-animation-name: loadingAction;
@@ -4013,11 +4013,11 @@ body[data-type='about'] #web_bg {
   -webkit-justify-content: center;
   justify-content: center;
   color: var(--anzhiyu-white);
-  background: -webkit-linear-gradient(330deg, #5b27ff 0, #00d4ff 100%);
-  background: -moz-linear-gradient(330deg, #5b27ff 0, #00d4ff 100%);
-  background: -o-linear-gradient(330deg, #5b27ff 0, #00d4ff 100%);
-  background: -ms-linear-gradient(330deg, #5b27ff 0, #00d4ff 100%);
-  background: linear-gradient(120deg, #5b27ff 0, #00d4ff 100%);
+  background: -webkit-linear-gradient(330deg, rgba(255,39,77,0.678) 0, rgba(0,212,255,0.702) 100%);
+  background: -moz-linear-gradient(330deg, rgba(255,39,77,0.678) 0, rgba(0,212,255,0.702) 100%);
+  background: -o-linear-gradient(330deg, rgba(255,39,77,0.678) 0, rgba(0,212,255,0.702) 100%);
+  background: -ms-linear-gradient(330deg, rgba(255,39,77,0.678) 0, rgba(0,212,255,0.702) 100%);
+  background: linear-gradient(120deg, rgba(255,39,77,0.678) 0, rgba(0,212,255,0.702) 100%);
   background-size: 200%;
   -webkit-animation: gradient 15s ease infinite;
   -moz-animation: gradient 15s ease infinite;
@@ -4698,11 +4698,11 @@ body[data-type='about'] #web_bg {
   -ms-flex-pack: center;
   -webkit-justify-content: center;
   justify-content: center;
-  background: -webkit-linear-gradient(330deg, #ff27e8 0, #ff8000 100%);
-  background: -moz-linear-gradient(330deg, #ff27e8 0, #ff8000 100%);
-  background: -o-linear-gradient(330deg, #ff27e8 0, #ff8000 100%);
-  background: -ms-linear-gradient(330deg, #ff27e8 0, #ff8000 100%);
-  background: linear-gradient(120deg, #ff27e8 0, #ff8000 100%);
+  background: -webkit-linear-gradient(330deg, rgba(255,39,232,0.439) 0, rgba(255,128,0,0.38) 100%);
+  background: -moz-linear-gradient(330deg, rgba(255,39,232,0.439) 0, rgba(255,128,0,0.38) 100%);
+  background: -o-linear-gradient(330deg, rgba(255,39,232,0.439) 0, rgba(255,128,0,0.38) 100%);
+  background: -ms-linear-gradient(330deg, rgba(255,39,232,0.439) 0, rgba(255,128,0,0.38) 100%);
+  background: linear-gradient(120deg, rgba(255,39,232,0.439) 0, rgba(255,128,0,0.38) 100%);
   color: var(--anzhiyu-white);
   background-size: 200%;
   -webkit-animation: gradient 15s ease infinite;
@@ -5425,7 +5425,7 @@ body[data-type='about'] #web_bg {
   position: relative;
   height: 315px;
   width: 100%;
-  background: #2128bd;
+  background: rgba(232,169,185,0.631);
   overflow: hidden;
 }
 .shape {
@@ -5475,14 +5475,14 @@ body[data-type='about'] #web_bg {
   align-items: center;
   height: 315px;
   width: 100%;
-  background: #fff;
+  background: rgba(232,200,200,0.341);
   mix-blend-mode: screen;
 }
 [data-theme='dark'] .hello-about .content {
   background: transparent;
 }
 [data-theme='dark'] .hello-about h1 {
-  color: var(--anzhiyu-white);
+  color: rgba(64,61,102,0.839);
 }
 .hello-about h1 {
   font-size: 200px;
@@ -20563,6 +20563,23 @@ div#archive {
   }
 }
 
+
+/* 雪花特效 */
+[data-theme="light"] #snow{
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -2;
+}
+
+/* 雪花黑夜模式不显示 */
+[data-theme="dark"] #snow{
+  display: none;
+}
 
 #aside-content .card-widget#card-wechat {
   background: rgba(255, 255, 255, 0);
