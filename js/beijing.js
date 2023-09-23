@@ -66,15 +66,19 @@ function createWinbox() {
     <p><button onclick="localStorage.removeItem('blogbg');location.reload();" style="background:#5fcdff;display:block;width:100%;padding: 15px 0;border-radius:6px;color:white;"><i class="fa-solid fa-arrows-rotate"></i> 点我恢复默认背景</button></p>
     <h2 id="图片（手机）"><a href="#图片（手机）" class="headerlink" title="图片（手机）"></a>图片（手机）</h2>
     <div class="bgbox">
-    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s2.loli.net/2023/09/16/oUpIXyPdbkrLxCg.png)" class="pimgbox" onclick="changeBg('url(https://s2.loli.net/2023/09/16/oUpIXyPdbkrLxCg.png)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.postimg.cc/RFfZXtbF/98975554-p0.jpg)" class="pimgbox" onclick="changeBg('url(https://i.postimg.cc/RFfZXtbF/98975554-p0.jpg)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.postimg.cc/637WhTQ3/baitian.png)" class="pimgbox" onclick="changeBg('url(https://i.postimg.cc/637WhTQ3/baitian.png)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.postimg.cc/VvRVrWcb/yewan.png)" class="pimgbox" onclick="changeBg('url(https://i.postimg.cc/VvRVrWcb/yewan.png)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.postimg.cc/N0jCcqhq/110713201-p0.jpg)" class="pimgbox" onclick="changeBg('url(https://i.postimg.cc/N0jCcqhq/110713201-p0.jpg)')"></a>
     </div>
     
     <h2 id="图片（电脑）"><a href="#图片（电脑）" class="headerlink" title="图片（电脑）"></a>图片（电脑）</h2>
     <div class="bgbox">
-    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s2.loli.net/2023/09/11/ReGWLopMkmfPcCQ.png)" class="imgbox" onclick="changeBg('url(https://s2.loli.net/2023/09/11/ReGWLopMkmfPcCQ.png)')"></a>
-    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s2.loli.net/2023/09/11/UVqawmjXId32YZt.jpg)" class="imgbox" onclick="changeBg('url(https://s2.loli.net/2023/09/11/UVqawmjXId32YZt.jpg)')"></a>
-    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s2.loli.net/2023/09/16/EPjKfMwsUcneYik.jpg)" class="imgbox" onclick="changeBg('url(https://s2.loli.net/2023/09/16/EPjKfMwsUcneYik.jpg)')"></a>
-    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s2.loli.net/2023/09/16/45vroIAPiwOHfQ8.jpg)" class="imgbox" onclick="changeBg('url(https://s2.loli.net/2023/09/16/45vroIAPiwOHfQ8.jpg)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.postimg.cc/43nT95sc/92771524-p1.png)" class="imgbox" onclick="changeBg('url(https://i.postimg.cc/43nT95sc/92771524-p1.png)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.postimg.cc/wBPYcmjG/74540234-p1.jpg)" class="imgbox" onclick="changeBg('url(https://i.postimg.cc/wBPYcmjG/74540234-p1.jpg)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.postimg.cc/ry52xzXf/background1.jpg)" class="imgbox" onclick="changeBg('url(https://i.postimg.cc/ry52xzXf/background1.jpg)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.postimg.cc/x8nNmgTY/96145490-p0.jpg)" class="imgbox" onclick="changeBg('url(https://i.postimg.cc/x8nNmgTY/96145490-p0.jpg)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.postimg.cc/MK8vrzRT/76081770-p0.jpg)" class="imgbox" onclick="changeBg('url(https://i.postimg.cc/MK8vrzRT/76081770-p0.jpg)')"></a>
     </div>
     
     
