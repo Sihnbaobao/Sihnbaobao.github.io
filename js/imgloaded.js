@@ -65,8 +65,8 @@ const executeLoad = (config, target) => {
 };
 
 const config = {
-  smallSrc: '', // 小图链接 尽可能配置小于100k的图片
-  largeSrc: 'https://t.mwm.moe/pc', // 大图链接 最终显示的图片
+  smallSrc: 'https://i.postimg.cc/T1j86Nqz/92771524-p1-png.jpg', // 小图链接 尽可能配置小于100k的图片
+  largeSrc: 'https://i.postimg.cc/43nT95sc/92771524-p1.png', // 大图链接 最终显示的图片
   mobileSmallSrc: 'https://i.postimg.cc/02jgVZnf/97872943-p1.png', // 手机端小图链接 尽可能配置小于100k的图片
   mobileLargeSrc: 'https://i.postimg.cc/SRN0FGhm/97872943-p0.jpg', // 手机端大图链接 最终显示的图片
   enableRoutes: ['/'],
