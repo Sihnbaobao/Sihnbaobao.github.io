@@ -66,19 +66,20 @@ function createWinbox() {
     <p><button onclick="localStorage.removeItem('blogbg');location.reload();" style="background:#5fcdff;display:block;width:100%;padding: 15px 0;border-radius:6px;color:white;"><i class="fa-solid fa-arrows-rotate"></i> 点我恢复默认背景</button></p>
     <h2 id="图片（手机）"><a href="#图片（手机）" class="headerlink" title="图片（手机）"></a>图片（手机）</h2>
     <div class="bgbox">
-    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/98975554_p0.jpg)" class="pimgbox" onclick="changeBg('url(/img/bz/98975554_p0.jpg)')"></a>
-    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/yande.re828676.jpg)" class="pimgbox" onclick="changeBg('url(/img/bz/yande.re828676.jpg)')"></a>
-    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/yande.re654766.jpg)" class="pimgbox" onclick="changeBg('url(/img/bz/yande.re654766.jpg)')"></a>
-    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/110713201_p0.jpg)" class="pimgbox" onclick="changeBg('url(/img/bz/110713201_p0.jpg)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/98975554_p0.webp)" class="pimgbox" onclick="changeBg('url(/img/bz/98975554_p0.webp)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/yande.re828676.webp)" class="pimgbox" onclick="changeBg('url(/img/bz/yande.re828676.webp)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/yande.re654766.webp)" class="pimgbox" onclick="changeBg('url(/img/bz/yande.re654766.webp)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/110713201_p0.webp)" class="pimgbox" onclick="changeBg('url(/img/bz/110713201_p0.webp)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/97872943_p0.webp)" class="pimgbox" onclick="changeBg('url(/img/bz/97872943_p0.webp)')"></a>
     </div>
     
     <h2 id="图片（电脑）"><a href="#图片（电脑）" class="headerlink" title="图片（电脑）"></a>图片（电脑）</h2>
     <div class="bgbox">
-    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/92771524_p0.png)" class="imgbox" onclick="changeBg('url(/img/bz/92771524_p0.png)')"></a>
-    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/74540234_p0.jpg)" class="imgbox" onclick="changeBg('url(/img/bz/74540234_p0.jpg)')"></a>
-    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/background.jpg)" class="imgbox" onclick="changeBg('url(/img/bz/background.jpg)')"></a>
-    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/96145490_p0.jpg)" class="imgbox" onclick="changeBg('url(/img/bz/96145490_p0.jpg)')"></a>
-    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/76081770_p0.jpg)" class="imgbox" onclick="changeBg('url(/img/bz/76081770_p0.jpg)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/92771524_p0.webp)" class="imgbox" onclick="changeBg('url(/img/bz/92771524_p0.webp)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/74540234_p0.webp)" class="imgbox" onclick="changeBg('url(/img/bz/74540234_p0.webp)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/background.webp)" class="imgbox" onclick="changeBg('url(/img/bz/background.webp)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/96145490_p0.webp)" class="imgbox" onclick="changeBg('url(/img/bz/96145490_p0.webp)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/img/bz/76081770_p0.webp)" class="imgbox" onclick="changeBg('url(/img/bz/76081770_p0.webp)')"></a>
     </div>
     
     
