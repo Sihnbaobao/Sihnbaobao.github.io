@@ -20501,14 +20501,14 @@ div#archive {
 
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(http://img.sihnbaobao.cn/wy/baitian.png);
+  background-image: url(https://img.sihnbaobao.cn/wy/baitian.png);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
 }
 
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(http://img.sihnbaobao.cn/wy/yewan.png);
+  background-image: url(https://img.sihnbaobao.cn/wy/yewan.png);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
