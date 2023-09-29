@@ -65,10 +65,10 @@ const executeLoad = (config, target) => {
 };
 
 const config = {
-  smallSrc: 'http://img.sihnbaobao.cn/wy/92771524_p1.webp', // 小图链接 尽可能配置小于100k的图片
-  largeSrc: 'http://img.sihnbaobao.cn/wy/92771524_p2.webp', // 大图链接 最终显示的图片
-  mobileSmallSrc: 'http://img.sihnbaobao.cn/wy/97872943_p0.webp', // 手机端小图链接 尽可能配置小于100k的图片
-  mobileLargeSrc: 'http://img.sihnbaobao.cn/wy/97872943_p1.webp', // 手机端大图链接 最终显示的图片
+  smallSrc: 'https://pic.imgdb.cn/item/65169114c458853aeffed897.webp', // 小图链接 尽可能配置小于100k的图片
+  largeSrc: 'https://pic.imgdb.cn/item/65169114c458853aeffed8ca.webp', // 大图链接 最终显示的图片
+  mobileSmallSrc: 'https://pic.imgdb.cn/item/65169115c458853aeffed8da.webp', // 手机端小图链接 尽可能配置小于100k的图片
+  mobileLargeSrc: 'https://pic.imgdb.cn/item/65169115c458853aeffed8f0.webp', // 手机端大图链接 最终显示的图片
   enableRoutes: ['/'],
   };
 
