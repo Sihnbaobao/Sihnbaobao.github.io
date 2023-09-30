@@ -2874,7 +2874,7 @@ input::placeholder {
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
   -webkit-overflow-scrolling: touch;
-  background: var(--anzhiyu-background);
+/* background: var(--anzhiyu-background); */
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -3771,9 +3771,6 @@ body[data-type='about'] .page #footer-wrap {
   height: auto !important;
   min-height: 16px;
   color: #666;
-}
-body[data-type='about'] #web_bg {
-  background: var(--anzhiyu-background);
 }
 #about-page {
   padding-top: 1rem;
